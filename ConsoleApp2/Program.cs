@@ -1,4 +1,5 @@
-﻿using System;
+﻿using GenericRepository;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,9 +7,22 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp2
 {
+    
     class Program
     {
         //Shrawan
+        private readonly ICalculation<Value, ValueB, ValueC, ValueD> _ico;
+        public Program()
+        {
+            _ico = new Calculation();
+        }
+       public void Display()
+        {
+            Value vv = new Value();
+            vv.First = 20;
+            vv.Second = 30;
+            var res = _ico.Add(vv);
+        }
         static void Main(string[] args)
         {
 
@@ -19,8 +33,9 @@ namespace ConsoleApp2
             {
                 Console.WriteLine("Same Object");
             }
-            
-            CallaA A = new CallaA();
+            Program p = new Program();
+            p.Display();
+             CallaA A = new CallaA();
             var aaaa = A.Add(1);
             //var aa= obj.Add(1);
             //Console.WriteLine("Singletone Object"+aa.ToString());

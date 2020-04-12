@@ -1,0 +1,6 @@
+E:\Git\Singletone\GenericRepository\bin\Debug\GenericRepository.dll
+E:\Git\Singletone\GenericRepository\bin\Debug\GenericRepository.pdb
+E:\Git\Singletone\GenericRepository\obj\Debug\GenericRepository.csprojAssemblyReference.cache
+E:\Git\Singletone\GenericRepository\obj\Debug\GenericRepository.csproj.CoreCompileInputs.cache
+E:\Git\Singletone\GenericRepository\obj\Debug\GenericRepository.dll
+E:\Git\Singletone\GenericRepository\obj\Debug\GenericRepository.pdb
